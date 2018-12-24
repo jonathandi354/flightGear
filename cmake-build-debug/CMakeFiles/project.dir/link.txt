@@ -1,0 +1,1 @@
+/usr/bin/c++   -pthread -g   CMakeFiles/project.dir/main.cpp.o CMakeFiles/project.dir/Parser.cpp.o CMakeFiles/project.dir/Lexer.cpp.o CMakeFiles/project.dir/OpenDataServer.cpp.o CMakeFiles/project.dir/DataReaderServer.cpp.o CMakeFiles/project.dir/Connect.cpp.o CMakeFiles/project.dir/Assign.cpp.o CMakeFiles/project.dir/DataControl.cpp.o  -o project 
