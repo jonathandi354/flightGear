@@ -21,20 +21,21 @@ public:
             ++it;
         }
         it++;
+        //calculate the condition
         double condition = data->calculate(*(it));
         //double condition = 1;
         it++;
         j += 2;
         int count = 0;
         int t;
-        Command *c;
         int start = j;
+        //if the condition is true execute all the commands in the scope
         while (condition) {
 
-            c = NULL;
             if (*it == "{") {
                 count++;
             }
+            //if the string is a command
             if (commands.count(*it) == 1) {
                 t = j;
                 j = commands[*it]->execute(j);
@@ -49,7 +50,7 @@ public:
                 j++;
                 it++;
             }
-
+            //if we passed the scope
             if (count == 0) {
                 break;
             }

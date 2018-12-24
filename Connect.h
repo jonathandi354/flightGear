@@ -37,7 +37,7 @@ public:
             string ip = *(++it);
             int port = stoi(*++it);
             const char* ip2 = ip.c_str();
-
+            //create connection
             create_Connection(port, ip2);
             return index + 1;
 
@@ -51,9 +51,11 @@ public:
             strcpy(msg1, msg);
             strcat(msg1, "\r\n");
             ssize_t t = strlen(msg1);
+
+            //send the message
             n = static_cast<int>(::send(sockfd, msg1, t, 0));
 
-            //n = write(sockfd, msg1, strlen(msg1));
+
 
             if (n < 0) {
                 perror("ERROR writing to socket");

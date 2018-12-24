@@ -22,6 +22,7 @@ public:
             ++it;
         }
         it++;
+        //calculate the condition
         double condition = data->calculate(*(it));
         //double condition = 1;
         it++;
@@ -31,11 +32,13 @@ public:
         Command* c;
         int start = j;
         int result;
+        //execute all the commands in the scope
         while (condition) {
             c = NULL;
             if (*it == "{") {
                 count++;
             }
+            //if a string is a command
             if (commands.count(*it) == 1) {
                 t = j;
                 j = commands[*it]->execute(j);
@@ -50,7 +53,7 @@ public:
                 j++;
                 it++;
             }
-
+            //if we passed to the end of the scope - restart the iterator and check the condition again
             if (count == 0) {
                 it -= (j - start);
                 result = j;

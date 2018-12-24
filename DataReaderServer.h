@@ -85,7 +85,7 @@ public:
             exit(1);
         }
         p->newsockfd = newsockfd;
-
+        //create a thread
         pthread_create(&trid, nullptr, server, p);
 
     }

@@ -15,6 +15,7 @@ Parser::Parser(vector<string> arr) {
     int countw = 1;
     int countif = 1;
     int countex = 1;
+    //create all the commands
     for (auto it = arr.begin(); it != arr.end(); it++) {
 
         if (*it == "var" && countvar == 1) {
@@ -68,6 +69,7 @@ void Parser::run() {
     vector<string> subV;
     Command* c;
     while (i < arr_of_commands.size() ){
+        //if a string is a command - execute
         if (commands.count(*it) == 1) {
             c = commands[*it];
         } else {
