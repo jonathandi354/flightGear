@@ -150,6 +150,60 @@ Assign.cpp.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/Assign.cpp.s
 .PHONY : Assign.cpp.s
 
+BinaryExpression.o: BinaryExpression.cpp.o
+
+.PHONY : BinaryExpression.o
+
+# target to build an object file
+BinaryExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/BinaryExpression.cpp.o
+.PHONY : BinaryExpression.cpp.o
+
+BinaryExpression.i: BinaryExpression.cpp.i
+
+.PHONY : BinaryExpression.i
+
+# target to preprocess a source file
+BinaryExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/BinaryExpression.cpp.i
+.PHONY : BinaryExpression.cpp.i
+
+BinaryExpression.s: BinaryExpression.cpp.s
+
+.PHONY : BinaryExpression.s
+
+# target to generate assembly for a file
+BinaryExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/BinaryExpression.cpp.s
+.PHONY : BinaryExpression.cpp.s
+
+CalcExpression.o: CalcExpression.cpp.o
+
+.PHONY : CalcExpression.o
+
+# target to build an object file
+CalcExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/CalcExpression.cpp.o
+.PHONY : CalcExpression.cpp.o
+
+CalcExpression.i: CalcExpression.cpp.i
+
+.PHONY : CalcExpression.i
+
+# target to preprocess a source file
+CalcExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/CalcExpression.cpp.i
+.PHONY : CalcExpression.cpp.i
+
+CalcExpression.s: CalcExpression.cpp.s
+
+.PHONY : CalcExpression.s
+
+# target to generate assembly for a file
+CalcExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/CalcExpression.cpp.s
+.PHONY : CalcExpression.cpp.s
+
 Connect.o: Connect.cpp.o
 
 .PHONY : Connect.o
@@ -230,6 +284,60 @@ DataReaderServer.s: DataReaderServer.cpp.s
 DataReaderServer.cpp.s:
 	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/DataReaderServer.cpp.s
 .PHONY : DataReaderServer.cpp.s
+
+Expression.o: Expression.cpp.o
+
+.PHONY : Expression.o
+
+# target to build an object file
+Expression.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/Expression.cpp.o
+.PHONY : Expression.cpp.o
+
+Expression.i: Expression.cpp.i
+
+.PHONY : Expression.i
+
+# target to preprocess a source file
+Expression.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/Expression.cpp.i
+.PHONY : Expression.cpp.i
+
+Expression.s: Expression.cpp.s
+
+.PHONY : Expression.s
+
+# target to generate assembly for a file
+Expression.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/Expression.cpp.s
+.PHONY : Expression.cpp.s
+
+KindsOfExpression.o: KindsOfExpression.cpp.o
+
+.PHONY : KindsOfExpression.o
+
+# target to build an object file
+KindsOfExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/KindsOfExpression.cpp.o
+.PHONY : KindsOfExpression.cpp.o
+
+KindsOfExpression.i: KindsOfExpression.cpp.i
+
+.PHONY : KindsOfExpression.i
+
+# target to preprocess a source file
+KindsOfExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/KindsOfExpression.cpp.i
+.PHONY : KindsOfExpression.cpp.i
+
+KindsOfExpression.s: KindsOfExpression.cpp.s
+
+.PHONY : KindsOfExpression.s
+
+# target to generate assembly for a file
+KindsOfExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/project.dir/build.make CMakeFiles/project.dir/KindsOfExpression.cpp.s
+.PHONY : KindsOfExpression.cpp.s
 
 Lexer.o: Lexer.cpp.o
 
@@ -351,6 +459,12 @@ help:
 	@echo "... Assign.o"
 	@echo "... Assign.i"
 	@echo "... Assign.s"
+	@echo "... BinaryExpression.o"
+	@echo "... BinaryExpression.i"
+	@echo "... BinaryExpression.s"
+	@echo "... CalcExpression.o"
+	@echo "... CalcExpression.i"
+	@echo "... CalcExpression.s"
 	@echo "... Connect.o"
 	@echo "... Connect.i"
 	@echo "... Connect.s"
@@ -360,6 +474,12 @@ help:
 	@echo "... DataReaderServer.o"
 	@echo "... DataReaderServer.i"
 	@echo "... DataReaderServer.s"
+	@echo "... Expression.o"
+	@echo "... Expression.i"
+	@echo "... Expression.s"
+	@echo "... KindsOfExpression.o"
+	@echo "... KindsOfExpression.i"
+	@echo "... KindsOfExpression.s"
 	@echo "... Lexer.o"
 	@echo "... Lexer.i"
 	@echo "... Lexer.s"

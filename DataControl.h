@@ -10,6 +10,7 @@
 #include <map>
 #include "Command.h"
 #include <algorithm>
+#include "CalcExpression.h"
 using namespace std;
 class DataControl {
     vector<string> arr;
@@ -17,10 +18,13 @@ class DataControl {
     map<int, float> values;
     map<string, string> binded;
     map<string, int>places;
+    CalcExpression* calc;
+
 
 public:
-    DataControl(vector<string> arr) {
+    DataControl(vector<string> arr, CalcExpression* calc) {
         this->arr = arr;
+        this->calc = calc;
         setMap();
     }
     vector<string>& getArr() {

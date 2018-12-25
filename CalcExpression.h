@@ -8,6 +8,7 @@
 #include <vector>
 #include "Expression.h"
 
+#include "KindsOfExpression.h"
 using namespace std;
 
 class CalcExpression {

@@ -4,40 +4,83 @@
 CMakeFiles/project.dir/Assign.cpp.o
  /home/jonathan/CLionProjects/project1/Assign.cpp
  /home/jonathan/CLionProjects/project1/Assign.h
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/Connect.h
  /home/jonathan/CLionProjects/project1/DataControl.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
+CMakeFiles/project.dir/BinaryExpression.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.cpp
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+CMakeFiles/project.dir/CalcExpression.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.cpp
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
 CMakeFiles/project.dir/Connect.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/Connect.cpp
  /home/jonathan/CLionProjects/project1/Connect.h
  /home/jonathan/CLionProjects/project1/DataControl.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
 CMakeFiles/project.dir/DataControl.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/DataControl.cpp
  /home/jonathan/CLionProjects/project1/DataControl.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
 CMakeFiles/project.dir/DataReaderServer.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/DataControl.h
  /home/jonathan/CLionProjects/project1/DataReaderServer.cpp
  /home/jonathan/CLionProjects/project1/DataReaderServer.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
+CMakeFiles/project.dir/Expression.cpp.o
+ /home/jonathan/CLionProjects/project1/Expression.cpp
+ /home/jonathan/CLionProjects/project1/Expression.h
+CMakeFiles/project.dir/KindsOfExpression.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.cpp
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
 CMakeFiles/project.dir/Lexer.cpp.o
  /home/jonathan/CLionProjects/project1/Lexer.cpp
  /home/jonathan/CLionProjects/project1/Lexer.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/DataControl.h
  /home/jonathan/CLionProjects/project1/DataReaderServer.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
  /home/jonathan/CLionProjects/project1/OpenDataServer.cpp
  /home/jonathan/CLionProjects/project1/OpenDataServer.h
 CMakeFiles/project.dir/Parser.cpp.o
  /home/jonathan/CLionProjects/project1/Assign.h
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/ConditionParser.h
  /home/jonathan/CLionProjects/project1/Connect.h
  /home/jonathan/CLionProjects/project1/DataControl.h
  /home/jonathan/CLionProjects/project1/DataReaderServer.h
+ /home/jonathan/CLionProjects/project1/Exit.h
+ /home/jonathan/CLionProjects/project1/Expression.h
  /home/jonathan/CLionProjects/project1/IfCondition.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
  /home/jonathan/CLionProjects/project1/OpenDataServer.h
  /home/jonathan/CLionProjects/project1/Parser.cpp
  /home/jonathan/CLionProjects/project1/Parser.h
@@ -47,12 +90,17 @@ CMakeFiles/project.dir/Parser.cpp.o
  /home/jonathan/CLionProjects/project1/whileLoop.h
 CMakeFiles/project.dir/main.cpp.o
  /home/jonathan/CLionProjects/project1/Assign.h
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
  /home/jonathan/CLionProjects/project1/Command.h
  /home/jonathan/CLionProjects/project1/ConditionParser.h
  /home/jonathan/CLionProjects/project1/Connect.h
  /home/jonathan/CLionProjects/project1/DataControl.h
  /home/jonathan/CLionProjects/project1/DataReaderServer.h
+ /home/jonathan/CLionProjects/project1/Exit.h
+ /home/jonathan/CLionProjects/project1/Expression.h
  /home/jonathan/CLionProjects/project1/IfCondition.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
  /home/jonathan/CLionProjects/project1/Lexer.h
  /home/jonathan/CLionProjects/project1/OpenDataServer.h
  /home/jonathan/CLionProjects/project1/Parser.h

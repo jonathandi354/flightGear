@@ -26,9 +26,11 @@ double DataControl::calculate(string str) {
         s.swap(newS);
         newS = "";
     }
+    vector<string> v;
+    v.push_back(s);
 
 
-    return 0;
+    return stod(calc->calcExpression(v)[0]);
 }
 
 double DataControl::getValueOfVar(string var) {

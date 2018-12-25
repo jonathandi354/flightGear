@@ -109,6 +109,17 @@ public:
         return 0;
     }
 };
+class Number : public UnaryExpression {
+public:
+    Number(double ex) : UnaryExpression(ex) {
+
+    }
+    virtual double calculate() {
+        return ex;
+    }
+
+};
+
 
 class Plus : public BinaryExpression{
 public:

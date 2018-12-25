@@ -90,6 +90,18 @@
 		<Unit filename="/home/jonathan/CLionProjects/project1/Assign.h">
 			<Option target="project"/>
 		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/BinaryExpression.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/BinaryExpression.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/CalcExpression.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/CalcExpression.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/home/jonathan/CLionProjects/project1/Command.h">
 			<Option target="project"/>
 		</Unit>
@@ -117,7 +129,19 @@
 		<Unit filename="/home/jonathan/CLionProjects/project1/Exit.h">
 			<Option target="project"/>
 		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/Expression.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/Expression.h">
+			<Option target="project"/>
+		</Unit>
 		<Unit filename="/home/jonathan/CLionProjects/project1/IfCondition.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/KindsOfExpression.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/KindsOfExpression.h">
 			<Option target="project"/>
 		</Unit>
 		<Unit filename="/home/jonathan/CLionProjects/project1/Lexer.cpp">

@@ -3,40 +3,83 @@
 
 CMakeFiles/project.dir/Assign.cpp.o: ../Assign.cpp
 CMakeFiles/project.dir/Assign.cpp.o: ../Assign.h
+CMakeFiles/project.dir/Assign.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/Assign.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/Assign.cpp.o: ../Command.h
 CMakeFiles/project.dir/Assign.cpp.o: ../Connect.h
 CMakeFiles/project.dir/Assign.cpp.o: ../DataControl.h
+CMakeFiles/project.dir/Assign.cpp.o: ../Expression.h
+CMakeFiles/project.dir/Assign.cpp.o: ../KindsOfExpression.h
 
+CMakeFiles/project.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
+CMakeFiles/project.dir/BinaryExpression.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/BinaryExpression.cpp.o: ../Expression.h
+
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../CalcExpression.cpp
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../CalcExpression.h
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../Expression.h
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../KindsOfExpression.h
+
+CMakeFiles/project.dir/Connect.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/Connect.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/Connect.cpp.o: ../Command.h
 CMakeFiles/project.dir/Connect.cpp.o: ../Connect.cpp
 CMakeFiles/project.dir/Connect.cpp.o: ../Connect.h
 CMakeFiles/project.dir/Connect.cpp.o: ../DataControl.h
+CMakeFiles/project.dir/Connect.cpp.o: ../Expression.h
+CMakeFiles/project.dir/Connect.cpp.o: ../KindsOfExpression.h
 
+CMakeFiles/project.dir/DataControl.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/DataControl.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/DataControl.cpp.o: ../Command.h
 CMakeFiles/project.dir/DataControl.cpp.o: ../DataControl.cpp
 CMakeFiles/project.dir/DataControl.cpp.o: ../DataControl.h
+CMakeFiles/project.dir/DataControl.cpp.o: ../Expression.h
+CMakeFiles/project.dir/DataControl.cpp.o: ../KindsOfExpression.h
 
+CMakeFiles/project.dir/DataReaderServer.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/DataReaderServer.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../Command.h
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataControl.h
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
+CMakeFiles/project.dir/DataReaderServer.cpp.o: ../Expression.h
+CMakeFiles/project.dir/DataReaderServer.cpp.o: ../KindsOfExpression.h
+
+CMakeFiles/project.dir/Expression.cpp.o: ../Expression.cpp
+CMakeFiles/project.dir/Expression.cpp.o: ../Expression.h
+
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../Expression.h
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../KindsOfExpression.cpp
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../KindsOfExpression.h
 
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.h
 
+CMakeFiles/project.dir/OpenDataServer.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/OpenDataServer.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o: ../Command.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o: ../DataControl.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o: ../DataReaderServer.h
+CMakeFiles/project.dir/OpenDataServer.cpp.o: ../Expression.h
+CMakeFiles/project.dir/OpenDataServer.cpp.o: ../KindsOfExpression.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o: ../OpenDataServer.cpp
 CMakeFiles/project.dir/OpenDataServer.cpp.o: ../OpenDataServer.h
 
 CMakeFiles/project.dir/Parser.cpp.o: ../Assign.h
+CMakeFiles/project.dir/Parser.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/Parser.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/Parser.cpp.o: ../Command.h
 CMakeFiles/project.dir/Parser.cpp.o: ../ConditionParser.h
 CMakeFiles/project.dir/Parser.cpp.o: ../Connect.h
 CMakeFiles/project.dir/Parser.cpp.o: ../DataControl.h
 CMakeFiles/project.dir/Parser.cpp.o: ../DataReaderServer.h
+CMakeFiles/project.dir/Parser.cpp.o: ../Exit.h
+CMakeFiles/project.dir/Parser.cpp.o: ../Expression.h
 CMakeFiles/project.dir/Parser.cpp.o: ../IfCondition.h
+CMakeFiles/project.dir/Parser.cpp.o: ../KindsOfExpression.h
 CMakeFiles/project.dir/Parser.cpp.o: ../OpenDataServer.h
 CMakeFiles/project.dir/Parser.cpp.o: ../Parser.cpp
 CMakeFiles/project.dir/Parser.cpp.o: ../Parser.h
@@ -46,12 +89,17 @@ CMakeFiles/project.dir/Parser.cpp.o: ../sleepComm.h
 CMakeFiles/project.dir/Parser.cpp.o: ../whileLoop.h
 
 CMakeFiles/project.dir/main.cpp.o: ../Assign.h
+CMakeFiles/project.dir/main.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/main.cpp.o: ../CalcExpression.h
 CMakeFiles/project.dir/main.cpp.o: ../Command.h
 CMakeFiles/project.dir/main.cpp.o: ../ConditionParser.h
 CMakeFiles/project.dir/main.cpp.o: ../Connect.h
 CMakeFiles/project.dir/main.cpp.o: ../DataControl.h
 CMakeFiles/project.dir/main.cpp.o: ../DataReaderServer.h
+CMakeFiles/project.dir/main.cpp.o: ../Exit.h
+CMakeFiles/project.dir/main.cpp.o: ../Expression.h
 CMakeFiles/project.dir/main.cpp.o: ../IfCondition.h
+CMakeFiles/project.dir/main.cpp.o: ../KindsOfExpression.h
 CMakeFiles/project.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/project.dir/main.cpp.o: ../OpenDataServer.h
 CMakeFiles/project.dir/main.cpp.o: ../Parser.h

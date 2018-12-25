@@ -5,9 +5,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jonathan/CLionProjects/project1/Assign.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Assign.cpp.o"
+  "/home/jonathan/CLionProjects/project1/BinaryExpression.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/BinaryExpression.cpp.o"
+  "/home/jonathan/CLionProjects/project1/CalcExpression.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/CalcExpression.cpp.o"
   "/home/jonathan/CLionProjects/project1/Connect.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Connect.cpp.o"
   "/home/jonathan/CLionProjects/project1/DataControl.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/DataControl.cpp.o"
   "/home/jonathan/CLionProjects/project1/DataReaderServer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/DataReaderServer.cpp.o"
+  "/home/jonathan/CLionProjects/project1/Expression.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Expression.cpp.o"
+  "/home/jonathan/CLionProjects/project1/KindsOfExpression.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/KindsOfExpression.cpp.o"
   "/home/jonathan/CLionProjects/project1/Lexer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Lexer.cpp.o"
   "/home/jonathan/CLionProjects/project1/OpenDataServer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/OpenDataServer.cpp.o"
   "/home/jonathan/CLionProjects/project1/Parser.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Parser.cpp.o"

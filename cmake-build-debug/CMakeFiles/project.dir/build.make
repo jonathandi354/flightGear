@@ -161,6 +161,58 @@ CMakeFiles/project.dir/DataControl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/DataControl.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/project1/DataControl.cpp -o CMakeFiles/project.dir/DataControl.cpp.s
 
+CMakeFiles/project.dir/CalcExpression.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/CalcExpression.cpp.o: ../CalcExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/project.dir/CalcExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/CalcExpression.cpp.o -c /home/jonathan/CLionProjects/project1/CalcExpression.cpp
+
+CMakeFiles/project.dir/CalcExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/CalcExpression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/project1/CalcExpression.cpp > CMakeFiles/project.dir/CalcExpression.cpp.i
+
+CMakeFiles/project.dir/CalcExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/CalcExpression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/project1/CalcExpression.cpp -o CMakeFiles/project.dir/CalcExpression.cpp.s
+
+CMakeFiles/project.dir/BinaryExpression.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/project.dir/BinaryExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/BinaryExpression.cpp.o -c /home/jonathan/CLionProjects/project1/BinaryExpression.cpp
+
+CMakeFiles/project.dir/BinaryExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/BinaryExpression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/project1/BinaryExpression.cpp > CMakeFiles/project.dir/BinaryExpression.cpp.i
+
+CMakeFiles/project.dir/BinaryExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/BinaryExpression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/project1/BinaryExpression.cpp -o CMakeFiles/project.dir/BinaryExpression.cpp.s
+
+CMakeFiles/project.dir/Expression.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/Expression.cpp.o: ../Expression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/project.dir/Expression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/Expression.cpp.o -c /home/jonathan/CLionProjects/project1/Expression.cpp
+
+CMakeFiles/project.dir/Expression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/Expression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/project1/Expression.cpp > CMakeFiles/project.dir/Expression.cpp.i
+
+CMakeFiles/project.dir/Expression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/Expression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/project1/Expression.cpp -o CMakeFiles/project.dir/Expression.cpp.s
+
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: CMakeFiles/project.dir/flags.make
+CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../KindsOfExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/project.dir/KindsOfExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/project.dir/KindsOfExpression.cpp.o -c /home/jonathan/CLionProjects/project1/KindsOfExpression.cpp
+
+CMakeFiles/project.dir/KindsOfExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/project.dir/KindsOfExpression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jonathan/CLionProjects/project1/KindsOfExpression.cpp > CMakeFiles/project.dir/KindsOfExpression.cpp.i
+
+CMakeFiles/project.dir/KindsOfExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/project.dir/KindsOfExpression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jonathan/CLionProjects/project1/KindsOfExpression.cpp -o CMakeFiles/project.dir/KindsOfExpression.cpp.s
+
 # Object files for target project
 project_OBJECTS = \
 "CMakeFiles/project.dir/main.cpp.o" \
@@ -170,7 +222,11 @@ project_OBJECTS = \
 "CMakeFiles/project.dir/DataReaderServer.cpp.o" \
 "CMakeFiles/project.dir/Connect.cpp.o" \
 "CMakeFiles/project.dir/Assign.cpp.o" \
-"CMakeFiles/project.dir/DataControl.cpp.o"
+"CMakeFiles/project.dir/DataControl.cpp.o" \
+"CMakeFiles/project.dir/CalcExpression.cpp.o" \
+"CMakeFiles/project.dir/BinaryExpression.cpp.o" \
+"CMakeFiles/project.dir/Expression.cpp.o" \
+"CMakeFiles/project.dir/KindsOfExpression.cpp.o"
 
 # External object files for target project
 project_EXTERNAL_OBJECTS =
@@ -183,9 +239,13 @@ project: CMakeFiles/project.dir/DataReaderServer.cpp.o
 project: CMakeFiles/project.dir/Connect.cpp.o
 project: CMakeFiles/project.dir/Assign.cpp.o
 project: CMakeFiles/project.dir/DataControl.cpp.o
+project: CMakeFiles/project.dir/CalcExpression.cpp.o
+project: CMakeFiles/project.dir/BinaryExpression.cpp.o
+project: CMakeFiles/project.dir/Expression.cpp.o
+project: CMakeFiles/project.dir/KindsOfExpression.cpp.o
 project: CMakeFiles/project.dir/build.make
 project: CMakeFiles/project.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable project"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/project.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

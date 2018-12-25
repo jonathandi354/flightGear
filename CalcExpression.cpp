@@ -6,17 +6,7 @@
 #include <stack>
 #include <map>
 #include "CalcExpression.h"
-#include "Number.h"
-#include "Plus.h"
-#include "Mul.h"
-#include "Minus.h"
-#include "Div.h"
-#include "Smaller.h"
-#include "Bigger.h"
-#include "SmallEqual.h"
-#include "BigEqual.h"
-#include "Equal.h"
-#include "NotEqual.h"
+#include "KindsOfExpression.h"
 
 bool CalcExpression::isInteger(char &c) {
     return (c >= '0') && (c <= '9');
@@ -45,9 +35,9 @@ string CalcExpression::Algo(string input) {
     string num = "";
     string temp;
     while (input[i] != '\0') {
-        if (isInteger(input[i])) {
+        if (isInteger(input[i]) || input[i] == '.') {
             num += input[i];
-            if (input[i + 1] == '\0' || !isInteger(input[i + 1])) {
+            if (input[i + 1] == '\0' || !(isInteger(input[i + 1]) || input[i + 1] == '.' )) {
                 num += "e";
 
                 queue.push_back(num);
@@ -204,7 +194,7 @@ string CalcExpression::changeUnari(string &s) {
 
 bool CalcExpression::containesLetter(string s) {
     for(int i = 0; i < s.length(); i++) {
-        if ((s[i] >= 'A' && s[i] < 'Z') || (s[i] >= 'a' && s[i] < 'z') ) {
+        if ((s[i] >= 'A' && s[i] < 'Z') || (s[i] >= 'a' && s[i] < 'z' )  ) {
             return true;
         }
     }

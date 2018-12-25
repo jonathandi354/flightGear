@@ -7,6 +7,10 @@ file(REMOVE_RECURSE
   "CMakeFiles/project.dir/Connect.cpp.o"
   "CMakeFiles/project.dir/Assign.cpp.o"
   "CMakeFiles/project.dir/DataControl.cpp.o"
+  "CMakeFiles/project.dir/CalcExpression.cpp.o"
+  "CMakeFiles/project.dir/BinaryExpression.cpp.o"
+  "CMakeFiles/project.dir/Expression.cpp.o"
+  "CMakeFiles/project.dir/KindsOfExpression.cpp.o"
   "project.pdb"
   "project"
 )
