@@ -1,14 +1,16 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/project.dir/main.cpp.o"
-  "CMakeFiles/project.dir/Parser.cpp.o"
-  "CMakeFiles/project.dir/Lexer.cpp.o"
-  "CMakeFiles/project.dir/OpenDataServer.cpp.o"
-  "CMakeFiles/project.dir/DataReaderServer.cpp.o"
-  "CMakeFiles/project.dir/Connect.cpp.o"
-  "CMakeFiles/project.dir/Assign.cpp.o"
-  "CMakeFiles/project.dir/DataControl.cpp.o"
+  "CMakeFiles/project.dir/main.cpp.obj"
+  "CMakeFiles/project.dir/Parser.cpp.obj"
+  "CMakeFiles/project.dir/Lexer.cpp.obj"
+  "CMakeFiles/project.dir/OpenDataServer.cpp.obj"
+  "CMakeFiles/project.dir/DataReaderServer.cpp.obj"
+  "CMakeFiles/project.dir/Connect.cpp.obj"
+  "CMakeFiles/project.dir/Assign.cpp.obj"
+  "CMakeFiles/project.dir/DataControl.cpp.obj"
   "project.pdb"
-  "project"
+  "project.exe"
+  "project.exe.manifest"
+  "libproject.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/jonathan/CLionProjects/project1/Assign.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Assign.cpp.o"
-  "/home/jonathan/CLionProjects/project1/Connect.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Connect.cpp.o"
-  "/home/jonathan/CLionProjects/project1/DataControl.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/DataControl.cpp.o"
-  "/home/jonathan/CLionProjects/project1/DataReaderServer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/DataReaderServer.cpp.o"
-  "/home/jonathan/CLionProjects/project1/Lexer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Lexer.cpp.o"
-  "/home/jonathan/CLionProjects/project1/OpenDataServer.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/OpenDataServer.cpp.o"
-  "/home/jonathan/CLionProjects/project1/Parser.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/Parser.cpp.o"
-  "/home/jonathan/CLionProjects/project1/main.cpp" "/home/jonathan/CLionProjects/project1/cmake-build-debug/CMakeFiles/project.dir/main.cpp.o"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/Assign.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/Assign.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/Connect.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/Connect.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/DataControl.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/DataControl.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/DataReaderServer.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/DataReaderServer.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/Lexer.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/Lexer.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/OpenDataServer.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/OpenDataServer.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/Parser.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/Parser.cpp.obj"
+  "C:/Users/Naama/Desktop/flightGear/flightGear/main.cpp" "C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/CMakeFiles/project.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
