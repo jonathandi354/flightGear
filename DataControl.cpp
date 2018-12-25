@@ -65,7 +65,7 @@ void DataControl::setMap() {
     places["/controls/flight/elevator"] = 19;
     places["/controls/flight/rudder"] = 20;
     places["/controls/flight/flaps"] = 21;
-    places["/controls/engines/engine/throttle"] = 22;
+    places["/controls/engines/current-engine/throttle"] = 22;
     places["/engines/engine/rpm"] = 23;
 
 }
