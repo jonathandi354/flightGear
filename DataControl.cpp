@@ -43,7 +43,7 @@ double DataControl::getValueOfVar(string var) {
     return symbols[var];
 }
 void DataControl::setMap() {
-    //set the map that maps each path in the xml file into an int
+    //set the map that maps each path in the xml file into an int.
     places["/instrumentation/airspeed-indicator/indicated-speed-kt"] = 1;
     places["/instrumentation/altimeter/indicated-altitude-ft"] = 2;
     places["/instrumentation/altimeter/pressure-alt-ft"] = 3;
