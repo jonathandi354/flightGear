@@ -4,21 +4,14 @@
 
 #include "DataControl.h"
 double DataControl::calculate(string str) {
-    /*map<string, list<int>> varToPlace;
-    for (int i = 0; i < str.length(); i++) {
-        for (auto it = symbols.begin(); it != symbols.end(); it++) {
-            if (str.find((it->first))) {
-                varToPlace[it->first].push_back(str.find(it->first));
-                i+=(it->first).length() - 1;
-            }
-        }
-    }*/
+    //calculate the value of str
     string s = str;
     string from;
     string to;
     string newS;
     string::size_type lastPos = 0;
     string::size_type findPos;
+    //place the values of the variables in str
     for (auto it = symbols.begin(); it != symbols.end(); it++) {
         lastPos = 0;
         from = it->first;
@@ -39,6 +32,7 @@ double DataControl::calculate(string str) {
 }
 
 double DataControl::getValueOfVar(string var) {
+    //get the current value of var
     if (binded.count(var) == 1) {
         if (symbols.count(binded[var]) == 1) {
             return getValueOfVar(binded[var]);
@@ -49,6 +43,7 @@ double DataControl::getValueOfVar(string var) {
     return symbols[var];
 }
 void DataControl::setMap() {
+    //set the map that maps each path in the xml file into an int
     places["/instrumentation/airspeed-indicator/indicated-speed-kt"] = 1;
     places["/instrumentation/altimeter/indicated-altitude-ft"] = 2;
     places["/instrumentation/altimeter/pressure-alt-ft"] = 3;

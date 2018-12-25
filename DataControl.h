@@ -21,6 +21,7 @@ class DataControl {
 public:
     DataControl(vector<string> arr) {
         this->arr = arr;
+        setMap();
     }
     vector<string>& getArr() {
         return arr;

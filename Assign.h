@@ -25,9 +25,11 @@ public:
         string path;
         string request = "";
         float value;
+        //advance the iterator
         for (int i = 0; i < index; i++) {
             ++it;
         }
+        //if needs to bind
         if (*(it + 1) == "bind") {
             path = *(it + 2);
             if (places.count(path) == 1) {
@@ -35,15 +37,18 @@ public:
 
 
             } else {
+                //if the binded object is a var
                 if (data->getSymbol().count(path) == 1) {
                     data->getSymbol()[*(it - 1)] = data->getSymbol()[path];
                     data->getBinded()[path] = *(it - 1);
                 }
             }
+            //add to the bind list
             data->getBinded()[*(it - 1)] = path;
         } else {
-
+            //calculate the value
             value = data->calculate(*(it + 1));
+            //if the var is binded
             if (data->getBinded().count(*(it - 1)) == 1) {
                 change(value, *(it - 1));
             } else {
@@ -58,7 +63,7 @@ private:
         string val = to_string(value);
         string path = data->getBinded()[var];
 
-
+        //change the value in all the binded objects
         if (data->getSymbol().count(path) == 1) {
             data->getSymbol()[var] = value;
             data->getSymbol()[path] = value;
