@@ -8,150 +8,176 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug"/>
+				<Option working_dir="/home/jonathan/CLionProjects/project1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="project">
-				<Option output="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="project/fast">
-				<Option output="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/project.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
-					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug"/>
+				<Option working_dir="/home/jonathan/CLionProjects/project1/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Naama/Desktop/flightGear/flightGear/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jonathan/CLionProjects/project1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project">
+				<Option output="/home/jonathan/CLionProjects/project1/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonathan/CLionProjects/project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 project"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="project/fast">
+				<Option output="/home/jonathan/CLionProjects/project1/cmake-build-debug/project" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jonathan/CLionProjects/project1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 project/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/jonathan/CLionProjects/project1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Assign.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Assign.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Assign.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Assign.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Command.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/BinaryExpression.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/ConditionParser.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/BinaryExpression.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Connect.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/CalcExpression.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Connect.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/CalcExpression.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/DataControl.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Command.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/DataControl.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/ConditionParser.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/DataReaderServer.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Connect.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/DataReaderServer.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Connect.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Exit.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/DataControl.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/IfCondition.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/DataControl.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Lexer.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/DataReaderServer.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Lexer.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/DataReaderServer.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/OpenDataServer.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Exit.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/OpenDataServer.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Expression.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Parser.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Expression.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Parser.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/IfCondition.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/Var.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/KindsOfExpression.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/main.cpp">
+		<Unit filename="/home/jonathan/CLionProjects/project1/KindsOfExpression.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/print.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Lexer.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/sleepComm.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/Lexer.h">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/whileLoop.h">
+		<Unit filename="/home/jonathan/CLionProjects/project1/OpenDataServer.cpp">
 			<Option target="project"/>
 		</Unit>
-		<Unit filename="C:/Users/Naama/Desktop/flightGear/flightGear/CMakeLists.txt">
+		<Unit filename="/home/jonathan/CLionProjects/project1/OpenDataServer.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/Parser.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/Parser.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/Var.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/main.cpp">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/print.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/sleepComm.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/whileLoop.h">
+			<Option target="project"/>
+		</Unit>
+		<Unit filename="/home/jonathan/CLionProjects/project1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

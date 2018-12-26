@@ -12,5 +12,16 @@ public:
 
 };
 
+class UnaryExpression : public Expression {
+protected:
+    double ex;
+public:
+    UnaryExpression(double ex) {
+        this->ex = ex;
+    }
+    virtual double calculate() {
+    }
+};
+
 
 #endif //UNTITLED2_EXPRESSION_H

@@ -6,7 +6,8 @@
 #include <iostream>
 Parser::Parser(vector<string> arr) {
     arr_of_commands = arr;
-    DataControl* data = new DataControl(arr);
+    CalcExpression* calc = new CalcExpression();
+    DataControl* data = new DataControl(arr, calc);
     this->data = data;
     int countvar = 1;
     int countass = 1;
