@@ -9,6 +9,7 @@ using namespace std;
 
 
 int main() {
+    //hi
     Lexer* l = new Lexer("hi.txt");
 
     vector<string> arr = l->lex();

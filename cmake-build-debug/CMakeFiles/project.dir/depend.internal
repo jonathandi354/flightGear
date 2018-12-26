@@ -56,6 +56,10 @@ CMakeFiles/project.dir/KindsOfExpression.cpp.o
  /home/jonathan/CLionProjects/project1/KindsOfExpression.cpp
  /home/jonathan/CLionProjects/project1/KindsOfExpression.h
 CMakeFiles/project.dir/Lexer.cpp.o
+ /home/jonathan/CLionProjects/project1/BinaryExpression.h
+ /home/jonathan/CLionProjects/project1/CalcExpression.h
+ /home/jonathan/CLionProjects/project1/Expression.h
+ /home/jonathan/CLionProjects/project1/KindsOfExpression.h
  /home/jonathan/CLionProjects/project1/Lexer.cpp
  /home/jonathan/CLionProjects/project1/Lexer.h
 CMakeFiles/project.dir/OpenDataServer.cpp.o

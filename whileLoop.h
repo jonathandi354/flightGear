@@ -55,11 +55,12 @@ public:
             }
             //if we passed to the end of the scope - restart the iterator and check the condition again
             if (count == 0) {
-                it -= (j - start);
+                it -= (j - start) + 1;
                 result = j;
                 j = start;
                 //condition = 0;
                 condition = data->calculate(*(it));
+                it++;
             }
 
 

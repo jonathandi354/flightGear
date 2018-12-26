@@ -1,2 +1,6 @@
-var a = 4
-var b = a+5
+var i = 1
+print i
+while i < 10 {
+    print i
+    i = i + 1
+}

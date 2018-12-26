@@ -108,7 +108,6 @@ vector<string> Lexer::lex() {
     vector<string> after_lex;
     while (getline(file, line)) {
         temp = removeSpaces(line);
-        cout << temp << endl;
         for (string s: splitbyspace(temp)) {
             after_lex.push_back(s);
         }

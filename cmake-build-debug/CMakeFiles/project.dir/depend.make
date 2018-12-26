@@ -55,6 +55,10 @@ CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../Expression.h
 CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../KindsOfExpression.cpp
 CMakeFiles/project.dir/KindsOfExpression.cpp.o: ../KindsOfExpression.h
 
+CMakeFiles/project.dir/Lexer.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../CalcExpression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../Expression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../KindsOfExpression.h
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.h
 
