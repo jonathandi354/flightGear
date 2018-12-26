@@ -1,2 +1,8 @@
-var a = 4
-var b = a+5
+openDataServer 5400 10
+connect 172.18.35.92 5402
+var x = bind "/controls/flight/rudder"
+x = 1
+print x
+while x < 2 {
+
+}

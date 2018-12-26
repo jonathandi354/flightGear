@@ -21,6 +21,10 @@ CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataControl.h
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
 CMakeFiles/project.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
 
+CMakeFiles/project.dir/Lexer.cpp.o: ../BinaryExpression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../CalcExpression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../Expression.h
+CMakeFiles/project.dir/Lexer.cpp.o: ../KindsOfExpression.h
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.cpp
 CMakeFiles/project.dir/Lexer.cpp.o: ../Lexer.h
 

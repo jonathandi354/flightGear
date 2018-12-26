@@ -47,13 +47,14 @@ public:
         char* send(const char* msg) {
             int n;
             int flag = 1;
-            char msg1[strlen(msg) + 2];
+            char *msg1 = new char[strlen(msg) + 3];
             strcpy(msg1, msg);
             strcat(msg1, "\r\n");
+            //cout << msg1 << endl;
             ssize_t t = strlen(msg1);
 
             //send the message
-            n = static_cast<int>(::send(sockfd, msg1, t, 0));
+            n = static_cast<int>(::write(sockfd, msg1, t));
 
 
 
@@ -63,9 +64,9 @@ public:
             }
             /* Now read server response */
             char buffer[256];
-            cout << buffer << endl;
             bzero(buffer,256);
             n = read(sockfd, buffer, 255);
+            cout << buffer << endl;
 
             if (n < 0) {
                 perror("ERROR reading from socket");
@@ -95,8 +96,8 @@ private:
 
             server = gethostbyname(ip);
 
-            if (server == NULL) {
-                fprintf(stderr,"ERROR, no such host\n");
+            if (server == nullptr) {
+                perror("ERROR, no such host\n");
                 exit(0);
             }
 

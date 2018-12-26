@@ -21,6 +21,9 @@ public:
     }
 
     virtual int execute(int index) {
+        int mm = 0;
+        mm = 1;
+        //vector<string> a = data->getArr();
         auto it = data->getArr().begin();
         string path;
         string request = "";
@@ -76,6 +79,10 @@ private:
             request += "set " + path + " " + val;
             connect->send(request.c_str());
             data->getSymbol()[var] = value;
+            /*if (data->getPlaces().count(path) == 1) {
+                data->getValues()[data->getPlaces()[path]] = value;
+            }*/
+
         }
         return;
     }
