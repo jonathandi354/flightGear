@@ -21,6 +21,7 @@ class CalcExpression {
     bool containesLetter(string s);
 
 public:
+    // The function that calculates the expression
     CalcExpression() {
 
     }

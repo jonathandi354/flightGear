@@ -8,10 +8,12 @@
 #include "CalcExpression.h"
 #include "KindsOfExpression.h"
 
+// The function checks if the char is a number
 bool CalcExpression::isInteger(char &c) {
     return (c >= '0') && (c <= '9');
 }
 
+// The algo of shunting yard
 string CalcExpression::Algo(string input) {
     map<string, int> m;
     m["=="] = -1;
@@ -104,20 +106,28 @@ string CalcExpression::Algo(string input) {
     return result;
 }
 
+// The function gets the string as postfix and calculates the expression
 string CalcExpression::fromPostfix(string &s) {
+    // to get the string as a vector
     vector<string> str = fromStringToVec(s);
+    // get the expression as an expression
     Expression* e = fromPostfixToDouble(str);
+    // calculate the expression
     double val = e->calculate();
+    // return as string
     return to_string(val);
 }
 
+//The function gets a vector and turns it into an expression
 Expression *CalcExpression::fromPostfixToDouble(vector<string> &s) {
     Expression* result;
     string temp = s.back();
     s.pop_back();
+    // check if the the current string is a number
     if (isInteger(temp[0])) {
         return new Number(stod(temp));
     }
+    // get the correct operator and get his left and right
     Expression* right = fromPostfixToDouble(s);
     Expression* left = fromPostfixToDouble(s);
     if (temp == "+") {
@@ -142,15 +152,20 @@ Expression *CalcExpression::fromPostfixToDouble(vector<string> &s) {
         result = new NotEqual(left, right);
     }
 
+    // return the expression
     return result;
 }
 
+// The function gets a postfix clculation and returns it as a vector
 vector<string> CalcExpression::fromStringToVec(string &s) {
     vector<string> exp;
+    // go over the string
     for (int i =0; i <s.length();){
+        // check if it is a number
         if(this->isInteger(s[i])){
             string temp = "";
             for (;i <s.length(); i++){
+                // get the full number - untill the e
                 if (s[i] == 'e'){
                     i++;
                     break;
@@ -159,6 +174,7 @@ vector<string> CalcExpression::fromStringToVec(string &s) {
             }
             exp.push_back(temp);
         } else {
+            // get the operator
             string temp = "";
             temp += s[i];
             if (s[i+1] == '=') {
@@ -170,6 +186,7 @@ vector<string> CalcExpression::fromStringToVec(string &s) {
         }
     }
     vector<string> result;
+    // turn around
     while (not exp.empty()){
         result.push_back(exp.back());
         exp.pop_back();
@@ -177,6 +194,7 @@ vector<string> CalcExpression::fromStringToVec(string &s) {
     return result;
 }
 
+// The function takes care of a minus
 string CalcExpression::changeUnari(string &s) {
     if (s.find('-') != string::npos) {
         int i = 0;
@@ -192,6 +210,7 @@ string CalcExpression::changeUnari(string &s) {
     return s;
 }
 
+// The function checks if the expression containes a letter
 bool CalcExpression::containesLetter(string s) {
     for(int i = 0; i < s.length(); i++) {
         if ((s[i] >= 'A' && s[i] < 'Z') || (s[i] >= 'a' && s[i] < 'z' )  ) {
@@ -200,7 +219,8 @@ bool CalcExpression::containesLetter(string s) {
     }
     return false;
 }
-
+// The function gets the vector of the orders and go over it
+// and if there is an expression it calculates it
 vector<string> CalcExpression::calcExpression(vector<string> v) {
     vector<string> afterCalc;
     int j = 0;
@@ -210,14 +230,18 @@ vector<string> CalcExpression::calcExpression(vector<string> v) {
     for(vector<string>::const_iterator i = v.begin(); i != v.end(); ++i) {
         j++;
         temp = *i;
+        // check if doesnt have a var i the expression and that it needs to be calculated
         if (!containesLetter(temp)) {
             if (temp.find('+') != string::npos || temp.find('-') != string::npos ||
                 temp.find('*') != string::npos || temp.find('/') != string::npos ||
                 temp.find('<') != string::npos || temp.find('>') != string::npos ||
                 temp.find("<=") != string::npos || temp.find(">=") != string::npos
                 || temp.find("==") != string::npos || temp.find("!=") != string::npos) {
+                // take care of minus
                 temp = changeUnari(temp);
+                // get the expression as postfix
                 temp = Algo(temp);
+                // calculate the expression
                 temp = fromPostfix(temp);
             }
         }
@@ -226,3 +250,4 @@ vector<string> CalcExpression::calcExpression(vector<string> v) {
     return afterCalc;
 
 }
+

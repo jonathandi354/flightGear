@@ -16,9 +16,11 @@ class UnaryExpression : public Expression {
 protected:
     double ex;
 public:
+    // expression with one parameter
     UnaryExpression(double ex) {
         this->ex = ex;
     }
+    // expression with 2 parameters
     virtual double calculate() {
     }
 };
