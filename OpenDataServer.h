@@ -29,8 +29,10 @@ public:
         for (int i = 0; i < index; i++) {
             it++;
         }
-        int port = stoi(*(++it));
-        int rate = stoi(*(++it));
+        int port = data->calculate(*(++it));
+        int rate = data->calculate(*(++it));
+        /*int port = stoi(*(++it));
+        int rate = stoi(*(++it));*/
 
         struct param* p = new param();
         //p->port = port;
