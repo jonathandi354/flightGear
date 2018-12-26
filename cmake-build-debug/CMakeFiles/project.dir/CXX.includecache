@@ -122,16 +122,6 @@ ConditionParser.h
 BinaryExpression.h
 /home/jonathan/CLionProjects/project1/BinaryExpression.h
 
-/home/jonathan/CLionProjects/project1/Lexer.cpp
-map
--
-stack
--
-Lexer.h
-/home/jonathan/CLionProjects/project1/Lexer.h
-KindsOfExpression.h
-/home/jonathan/CLionProjects/project1/KindsOfExpression.h
-
 /home/jonathan/CLionProjects/project1/Lexer.h
 iostream
 -
@@ -160,12 +150,6 @@ iostream
 pthread.h
 -
 chrono
--
-
-/home/jonathan/CLionProjects/project1/Parser.cpp
-Parser.h
-/home/jonathan/CLionProjects/project1/Parser.h
-iostream
 -
 
 /home/jonathan/CLionProjects/project1/Parser.h

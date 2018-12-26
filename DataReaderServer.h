@@ -27,9 +27,11 @@ struct param {
     int rate;
     DataControl* dataControl;
     int newsockfd;
+    pthread_mutex_t m;
 };
 using namespace std;
 class DataReaderServer {
+    pthread_mutex_t mutex;
 
 
 
@@ -85,7 +87,9 @@ public:
             exit(1);
         }
         p->newsockfd = newsockfd;
+        pthread_mutex_init(&mutex, nullptr);
         //create a thread
+        p->m = mutex;
         pthread_create(&trid, nullptr, server, p);
 
     }
@@ -93,7 +97,7 @@ public:
     static void* server(void* args) {
 
 
-        cout << "stsrt" << endl;
+        cout << "server" << endl;
         struct param* p = (struct param*) args;
         int n;
         char buffer[1024];
@@ -113,8 +117,10 @@ public:
                     perror("ERROR reading from socket");
                     exit(1);
                 }
+                pthread_mutex_lock(&p->m);
                 setTheMap(buffer, p->dataControl);
-                printf("Here is the message: %s\n",buffer);
+                pthread_mutex_unlock(&p->m);
+                //printf("Here is the message: %s\n",buffer);
                 i++;
 
             }
