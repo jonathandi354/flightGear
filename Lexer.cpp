@@ -6,12 +6,7 @@
 #include <map>
 #include <stack>
 #include "Lexer.h"
-#include "Smaller.h"
-#include "Bigger.h"
-#include "SmallEqual.h"
-#include "BigEqual.h"
-#include "Equal.h"
-#include "NotEqual.h"
+#include "KindsOfExpression.h"
 
 
 vector<string> Lexer::splitbyspace(string s) {
