@@ -7,12 +7,9 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "Number.h"
+#include "KindsOfExpression.h"
 #include <list>
-#include "Div.h"
-#include "Plus.h"
-#include "Minus.h"
-#include "Mul.h"
+
 #include "CalcExpression.h"
 #include <fstream>
 #include <vector>

@@ -6,17 +6,7 @@
 #include <stack>
 #include <map>
 #include "CalcExpression.h"
-#include "Number.h"
-#include "Plus.h"
-#include "Mul.h"
-#include "Minus.h"
-#include "Div.h"
-#include "Smaller.h"
-#include "Bigger.h"
-#include "SmallEqual.h"
-#include "BigEqual.h"
-#include "Equal.h"
-#include "NotEqual.h"
+#include "KindsOfExpression.h"
 
 bool CalcExpression::isInteger(char &c) {
     return (c >= '0') && (c <= '9');
