@@ -22,8 +22,6 @@ public:
     }
 
     virtual int execute(int index) {
-        int mm = 0;
-        mm = 1;
         //vector<string> a = data->getArr();
         auto it = data->getArr().begin();
         string path;

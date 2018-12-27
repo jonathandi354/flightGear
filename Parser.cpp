@@ -49,6 +49,10 @@ Parser::Parser(vector<string> arr) {
             commands["if"] = new IfCondition(commands, data);
             countif--;
         }
+        if (*it == "exit" && countex == 1) {
+            commands["exit"] = new Exit();
+            countex--;
+        }
 
 
     }
