@@ -19,6 +19,7 @@ using namespace std::chrono_literals;
 };*/
 class OpenDataServer : public Command{
     DataControl* data;
+    DataReaderServer* reader;
 public:
     OpenDataServer(DataControl* data) {
         this->data = data;
@@ -39,11 +40,15 @@ public:
         //p->rate = rate;
         //p->dataControl = data;
 
-        DataReaderServer* ds = new DataReaderServer(port, rate, data);
+        reader = new DataReaderServer(port, rate, data);
 
 
         return index + 1;
     }
+    ~OpenDataServer() {
+        delete  reader;
+    }
+
 
 
 

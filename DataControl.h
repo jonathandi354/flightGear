@@ -45,6 +45,9 @@ public:
     double calculate(string str);
     double getValueOfVar(string var);
     void setMap();
+    ~DataControl() {
+        delete calc;
+    }
 
 };
 #endif //PROJECT_DATACONTROL_H

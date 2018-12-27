@@ -21,7 +21,7 @@ public:
         for (int i = 0; i < index; i++) {
             ++it;
         }
-        int sleepFor = stoi(*(it + 1));
+        double sleepFor = data->calculate(*(it + 1));
         usleep(1000*sleepFor);
         return index + 1;
     }

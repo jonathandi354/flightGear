@@ -49,11 +49,10 @@ Parser::Parser(vector<string> arr) {
             commands["if"] = new IfCondition(commands, data);
             countif--;
         }
-        if (*it == "exit" && countex == 1) {
-            commands["exit"] = new Exit();
-        }
+
 
     }
+    //commands["exit"] = new Exit();
     if (commands.count("while") == 1){
         dynamic_cast<ConditionParser*>(commands["while"])->setCommands(commands);
     }
@@ -91,6 +90,11 @@ void Parser::run() {
 
 
     }
+    delete data;
+    for (auto it = commands.begin(); it != commands.end(); it++) {
+        delete it->second;
+    }
+    //commands["exit"]->execute(i);
     //cout << data->getSymbol()["a"] << endl;
 
 }

@@ -5,6 +5,7 @@
 #ifndef PROJECT_ASSIGN_H
 #define PROJECT_ASSIGN_H
 
+
 #include "Command.h"
 #include "Connect.h"
 #include "DataControl.h"
@@ -89,6 +90,7 @@ private:
 
 
 };
+
 
 
 #endif //PROJECT_ASSIGN_H

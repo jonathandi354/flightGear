@@ -32,6 +32,7 @@ struct param {
 using namespace std;
 class DataReaderServer {
     pthread_mutex_t mutex;
+    int sockfd;
 
 
 
@@ -43,7 +44,7 @@ public:
         p->port = port;
         p->rate = rate;
         p->dataControl = data;
-        int sockfd, newsockfd, portno, clilen;
+        int newsockfd, portno, clilen;
         char buffer[1024];
         struct sockaddr_in serv_addr, cli_addr;
         int  n;
@@ -92,6 +93,11 @@ public:
         p->m = mutex;
         pthread_create(&trid, nullptr, server, p);
 
+
+    }
+
+    int getSock() {
+        return sockfd;
     }
 
     static void* server(void* args) {
@@ -128,6 +134,10 @@ public:
 
 
         }
+    }
+    ~DataReaderServer() {
+        pthread_mutex_destroy(&mutex);
+        close(sockfd);
     }
 
 private:

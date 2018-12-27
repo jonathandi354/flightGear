@@ -21,8 +21,28 @@ public:
         for (int i = 0; i < index; i++) {
             ++it;
         }
+        string s = *(it + 1);
+        for (auto it1 = data->getSymbol().begin(); it1 != data->getSymbol().end(); it1++) {
+            if (s.find(it1->first) != string::npos) {
+                cout << data->calculate(*(it + 1)) << endl;
+                return index + 1;
+            }
+        }
+        int pos1 = s.find("\\n");
+        int pos2 = s.find("\\t");
+        for (int j = 0; j < s.length(); j++) {
+            if (j == pos1) {
+                cout<<'\n';
+                j++;
+            } else {
+                if (j == pos2) {
+                    cout << '\t';
+                    j++;
+                }
+                cout<< s[j];
+            }
 
-        cout << data->calculate(*(it + 1)) << endl;
+        }
         return index + 1;
     }
 };
