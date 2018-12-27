@@ -129,14 +129,15 @@ public:
 };
 
 // expression for a number
-class Number : public UnaryExpression {
+class Number : public Expression{
+    double number;
 public:
-    Number(double ex) : UnaryExpression(ex) {
-
+    Number(double num) {
+        this->number = num;
     }
-    // return the number
-    virtual double calculate() {
-        return ex;
+
+    double calculate() {
+        return this->number;
     }
 
 };

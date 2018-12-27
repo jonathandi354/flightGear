@@ -9,21 +9,11 @@
 class Expression {
 public:
     virtual double calculate() = 0;
+    virtual ~Expression() {}
 
 };
 
-class UnaryExpression : public Expression {
-protected:
-    double ex;
-public:
-    // expression with one parameter
-    UnaryExpression(double ex) {
-        this->ex = ex;
-    }
-    // expression with 2 parameters
-    virtual double calculate() {
-    }
-};
+
 
 
 #endif //UNTITLED2_EXPRESSION_H

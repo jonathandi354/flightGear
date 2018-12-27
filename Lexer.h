@@ -7,10 +7,12 @@
 #include <iostream>
 #include <string>
 #include <vector>
-#include "KindsOfExpression.h"
-
+#include "Number.h"
 #include <list>
-
+#include "Div.h"
+#include "Plus.h"
+#include "Minus.h"
+#include "Mul.h"
 #include "CalcExpression.h"
 #include <fstream>
 #include <vector>
@@ -32,6 +34,7 @@ private:
     vector<string> splitbyspace(string s);
 
     string removeSpaces(string s);
+    string changeComma(string& s);
 
 
 

@@ -22,6 +22,11 @@ public:
     virtual double calculate() {
 
     }
+    virtual ~BinaryExpression() {
+        delete this->left;
+        delete this->right;
+
+    }
 
 
 };
